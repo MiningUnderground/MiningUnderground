@@ -15,14 +15,14 @@
 
 对于以下矿池，请使用官方的提供的地址
 
-鱼池      f2pool           eth.f2pool.com:6688
-e池       ethminer         asia2.ethermine.org:4444
-                          stratum+ssl://asia2.ethermine.org:5555
+鱼池      f2pool            eth.f2pool.com:6688
+e池       ethminer          asia2.ethermine.org:4444
+                           stratum+ssl://asia2.ethermine.org:5555
 风池      flex              eth-hk.flexpool.io:4444
                            stratum+ssl://eth-hk.flexpool.io:5555
-欧易      okx
-币安      binance
-币印      poolin
+欧易      okx               stratum.okpool.me:3336
+币安      binance           ethash.poolbinance.com:1800
+币印      poolin            eth.ss.poolin.me:443
 
 ```
 
