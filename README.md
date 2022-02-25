@@ -20,8 +20,6 @@ e池       ethminer         asia2.ethermine.org:4444
                           stratum+ssl://asia2.ethermine.org:5555
 风池      flex              eth-hk.flexpool.io:4444
                            stratum+ssl://eth-hk.flexpool.io:5555
-
-
 欧易      okx
 币安      binance
 币印      poolin
@@ -42,7 +40,10 @@ e池       ethminer         asia2.ethermine.org:4444
 
 https://www.jianshu.com/p/de34081c1de0
 
+对于五十台以下的用户，我们建议使用斐讯k2p作为加密硬件。
+斐讯k2p的刷入方式非常简单，只需要将斐讯k2刷入breed，然后通过breed刷入即可，对于breed的刷入，可以参考这篇文章
 
+https://www.wifilu.com/269.html
 
 
 
@@ -51,13 +52,9 @@ https://www.jianshu.com/p/de34081c1de0
 等路由器启动完成后，将矿机或着交换机接入路由器LAN口即可正常使用
 
 如果此时矿机仍不能正常连接，请将矿机重启后再试
-ps:鉴于k2的运算能力有限，我们只建议20台以下的矿机使用k2作为加密盒子。
 
 
-对于五十台以下的用户，我们建议使用斐讯k2p作为加密硬件。
-斐讯k2p的刷入方式非常简单，只需要将斐讯k2刷入breed，然后通过breed刷入即可，对于breed的刷入，可以参考这篇文章
-
-https://www.wifilu.com/269.html
+对于100台或者以上的客户，我们将近期推出相关固件，或者联系作者进行定制
 
 
 ```
