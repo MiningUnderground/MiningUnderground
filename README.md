@@ -18,11 +18,7 @@
 鱼池      f2pool            eth.f2pool.com:6688
 e池       ethminer          asia2.ethermine.org:4444
                            stratum+ssl://asia2.ethermine.org:5555
-风池      flex              eth-hk.flexpool.io:4444
-                           stratum+ssl://eth-hk.flexpool.io:5555
-欧易      okx               stratum.okpool.me:3336
-币安      binance           ethash.poolbinance.com:1800
-币印      poolin            eth.ss.poolin.me:443
+币印      poolin            eth.ss.poolin.me:1883
 
 ```
 
@@ -44,17 +40,23 @@ e池       ethminer          asia2.ethermine.org:4444
 https://www.jianshu.com/p/de34081c1de0
 
 对于五十台以下的用户，我们建议使用斐讯k2p作为加密硬件。
-斐讯k2p的刷入方式非常简单，只需要将斐讯k2刷入breed，然后通过breed刷入即可，对于breed的刷入，可以参考这篇文章
+斐讯k2p的刷入方式稍微复杂，需要将斐讯k2刷入breed，然后通过breed刷入openwrt的底包，进入openwrt后通过自带的更新系统，刷入加密固件
+对于breed的刷入，可以参考这篇文章
 
 https://www.wifilu.com/269.html
 
 
 
-固件首次刷入完成后，等其自动开机，初次开机时间会比较久，大概一分钟左右
-将k2的 WAN 口接入上级网络（来自光猫或者宽带），将路由器断电重启
-等路由器启动完成后，将矿机或着交换机接入路由器LAN口即可正常使用
 
-如果此时矿机仍不能正常连接，请将矿机重启后再试
+
+固件首次刷入完成后，等其自动开机，初次开机时间会比较久，大概一分钟左右
+
+将k2的 WAN 口接入上级网络（来自光猫或者宽带），将路由器断电重启
+等路由器启动完成后，大概一分钟左右
+将矿机或着交换机接入路由器LAN口即可正常使用
+
+
+如果此时矿机仍不能正常连接，请将矿机和路由器分别重启后再试
 
 
 对于100台或者以上的客户，我们将近期推出相关固件，或者联系作者进行定制
